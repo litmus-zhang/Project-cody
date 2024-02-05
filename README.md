@@ -48,5 +48,5 @@ ros2 run demo_nodes_cpp talker
 Optional:<br/>
 If you want to work with jupyter notebook and develop:<br/>
 ```
-docker run -it -p 8000:8000 -p 8888:8888 polyphy
+
 ```
