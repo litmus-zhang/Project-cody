@@ -101,7 +101,7 @@ Use Turtlesim:<br/>
 ```
 ros2 run turtlesim turtle_teleop_key
 ```
-Test out your GUI apps like rqt or test the new gazebo app[https://gazebosim.org/docs/fortress/install_ubuntu]:<br/>
+Test out your GUI apps like rqt or test the new gazebo app. Complete the installation of the GUI app, then try using. For example, install gazebo app [https://gazebosim.org/docs/fortress/install_ubuntu] , then run command:<br/>
 ```
 ign gazebo empty.sdf
 ```
