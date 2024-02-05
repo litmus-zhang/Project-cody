@@ -3,9 +3,46 @@ update your existing list of packages:<br/>
 ```
 sudo apt update
 ```
-update your existing list of packages:<br/>
+install a few prerequisite packages which let apt use packages over HTTPS:<br/>
+```
+sudo apt install apt-transport-https ca-certificates curl software-properties-common
+```
+add the GPG key for the official Docker repository to your system:<br/>
+```
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+```
+Add the Docker repository to APT sources:<br/>
+```
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+```
+update your existing list of packages (again):<br/>
 ```
 sudo apt update
+```
+Make sure you are about to install from the Docker repo instead of the default Ubuntu repo:<br/>
+```
+apt-cache policy docker-ce
+```
+install Docker:<br/>
+```
+sudo apt install docker-ce
+```
+Check that docker running:<br/>
+```
+sudo systemctl status docker
+```
+### OPTIONAL - Executing the Docker Command Without Sudo 
+If you want to avoid typing 'sudo' whenever you run the 'docker' command, add your username to the 'docker' group:<br/>
+```
+sudo usermod -aG docker ${USER}
+```
+To apply the new group membership, log out of the server and back in, or type the following:<br/>
+```
+su - ${USER}
+```
+Confirm that your user is now added to the docker group by typing. NOTE: 'docker' must be listed among the output, if done properly:<br/>
+```
+groups
 ```
 
 ### PRE-Run 
