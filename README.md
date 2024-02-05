@@ -1,5 +1,12 @@
-### Docker Installation
-
+### Docker Installation - Ubuntu 22.04 - Jammy J
+update your existing list of packages:<br/>
+```
+sudo apt update
+```
+update your existing list of packages:<br/>
+```
+sudo apt update
+```
 
 ### PRE-Run 
 Ensure Connected Display to environment:<br/>
@@ -40,10 +47,26 @@ list all executables:<br/>
 ```
 ros2 pkg executables
 ```
-Run a minimal example of 2 C++ nodes (1 topic subscriber 'listener', 1 topic publisher 'talker') from the package 'demo_nodes_cpp' in this container::<br/>
+Run a minimal example of 2 C++ nodes (1 topic subscriber 'listener', 1 topic publisher 'talker') from the package 'demo_nodes_cpp' in this container. After trying, End with 'Ctrl+C':<br/>
 ```
 ros2 run demo_nodes_cpp listener &
 ros2 run demo_nodes_cpp talker
+```
+Checking Turtlesim:<br/>
+```
+ros2 pkg executables turtlesim
+```
+Starting Turtlesim:<br/>
+```
+ros2 run turtlesim turtlesim_node
+```
+Use Turtlesim:<br/>
+```
+ros2 run turtlesim turtle_teleop_key
+```
+Test out your GUI apps like rqt or test the new gazebo app[https://gazebosim.org/docs/fortress/install_ubuntu]:<br/>
+```
+ign gazebo empty.sdf
 ```
 Optional:<br/>
 If you want to work with jupyter notebook and develop:<br/>
