@@ -110,3 +110,6 @@ If you want to work with jupyter notebook and develop:<br/>
 ```
 
 ```
+
+## how to import 3D meshes into gazebo
+- https://classic.gazebosim.org/tutorials?tut=import_mesh
