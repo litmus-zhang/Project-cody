@@ -1,0 +1,4 @@
+Invoking command in '/home/josephineoe/Project-cody/build/world_files': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/josephineoe/Project-cody/build/world_files -- -j2 -l2
+Invoked command in '/home/josephineoe/Project-cody/build/world_files' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/josephineoe/Project-cody/build/world_files -- -j2 -l2
+Invoking command in '/home/josephineoe/Project-cody/build/world_files': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/josephineoe/Project-cody/build/world_files
+Invoked command in '/home/josephineoe/Project-cody/build/world_files' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/josephineoe/Project-cody/build/world_files

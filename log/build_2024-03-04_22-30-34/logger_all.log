@@ -1,0 +1,202 @@
+[0.907s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.907s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fa3a1baef80>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fa3a1bac850>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fa3a1bac850>>)
+[0.948s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.948s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.948s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.948s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.948s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.948s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.948s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/josephineoe/Project-cody'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_controls) by extensions ['ignore', 'ignore_ament_install']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_controls) by extension 'ignore'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_controls) by extension 'ignore_ament_install'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_controls) by extensions ['colcon_pkg']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_controls) by extension 'colcon_pkg'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_controls) by extensions ['colcon_meta']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_controls) by extension 'colcon_meta'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_controls) by extensions ['ros']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_controls) by extension 'ros'
+[0.959s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_controls' with type 'ros.ament_cmake' and name 'gazebo_controls'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/world_files) by extensions ['ignore', 'ignore_ament_install']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/world_files) by extension 'ignore'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/world_files) by extension 'ignore_ament_install'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/world_files) by extensions ['colcon_pkg']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/world_files) by extension 'colcon_pkg'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/world_files) by extensions ['colcon_meta']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/world_files) by extension 'colcon_meta'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/world_files) by extensions ['ros']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/world_files) by extension 'ros'
+[0.960s] DEBUG:colcon.colcon_core.package_identification:Package 'src/world_files' with type 'ros.ament_cmake' and name 'world_files'
+[0.960s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.960s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.960s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.960s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.960s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.020s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.020s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.043s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 288 installed packages in /opt/ros/humble
+[1.044s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.137s] Level 5:colcon.colcon_core.verb:set package 'gazebo_controls' build argument 'cmake_args' from command line to 'None'
+[1.137s] Level 5:colcon.colcon_core.verb:set package 'gazebo_controls' build argument 'cmake_target' from command line to 'None'
+[1.137s] Level 5:colcon.colcon_core.verb:set package 'gazebo_controls' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.138s] Level 5:colcon.colcon_core.verb:set package 'gazebo_controls' build argument 'cmake_clean_cache' from command line to 'False'
+[1.138s] Level 5:colcon.colcon_core.verb:set package 'gazebo_controls' build argument 'cmake_clean_first' from command line to 'False'
+[1.138s] Level 5:colcon.colcon_core.verb:set package 'gazebo_controls' build argument 'cmake_force_configure' from command line to 'False'
+[1.138s] Level 5:colcon.colcon_core.verb:set package 'gazebo_controls' build argument 'ament_cmake_args' from command line to 'None'
+[1.138s] Level 5:colcon.colcon_core.verb:set package 'gazebo_controls' build argument 'catkin_cmake_args' from command line to 'None'
+[1.138s] Level 5:colcon.colcon_core.verb:set package 'gazebo_controls' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.138s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_controls' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/josephineoe/Project-cody/build/gazebo_controls', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/josephineoe/Project-cody/install/gazebo_controls', 'merge_install': False, 'path': '/home/josephineoe/Project-cody/src/gazebo_controls', 'symlink_install': False, 'test_result_base': None}
+[1.152s] Level 5:colcon.colcon_core.verb:set package 'world_files' build argument 'cmake_args' from command line to 'None'
+[1.152s] Level 5:colcon.colcon_core.verb:set package 'world_files' build argument 'cmake_target' from command line to 'None'
+[1.152s] Level 5:colcon.colcon_core.verb:set package 'world_files' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.152s] Level 5:colcon.colcon_core.verb:set package 'world_files' build argument 'cmake_clean_cache' from command line to 'False'
+[1.152s] Level 5:colcon.colcon_core.verb:set package 'world_files' build argument 'cmake_clean_first' from command line to 'False'
+[1.152s] Level 5:colcon.colcon_core.verb:set package 'world_files' build argument 'cmake_force_configure' from command line to 'False'
+[1.152s] Level 5:colcon.colcon_core.verb:set package 'world_files' build argument 'ament_cmake_args' from command line to 'None'
+[1.152s] Level 5:colcon.colcon_core.verb:set package 'world_files' build argument 'catkin_cmake_args' from command line to 'None'
+[1.152s] Level 5:colcon.colcon_core.verb:set package 'world_files' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.152s] DEBUG:colcon.colcon_core.verb:Building package 'world_files' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/josephineoe/Project-cody/build/world_files', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/josephineoe/Project-cody/install/world_files', 'merge_install': False, 'path': '/home/josephineoe/Project-cody/src/world_files', 'symlink_install': False, 'test_result_base': None}
+[1.166s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.181s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.182s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/josephineoe/Project-cody/src/gazebo_controls' with build type 'ament_cmake'
+[1.182s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/josephineoe/Project-cody/src/gazebo_controls'
+[1.199s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.199s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.199s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.232s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/josephineoe/Project-cody/src/world_files' with build type 'ament_cmake'
+[1.232s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/josephineoe/Project-cody/src/world_files'
+[1.244s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.244s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.273s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/josephineoe/Project-cody/build/gazebo_controls': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/josephineoe/Project-cody/src/gazebo_controls -DCMAKE_INSTALL_PREFIX=/home/josephineoe/Project-cody/install/gazebo_controls
+[1.280s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/josephineoe/Project-cody/build/world_files': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/josephineoe/Project-cody/build/world_files -- -j2 -l2
+[1.317s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/josephineoe/Project-cody/build/world_files' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/josephineoe/Project-cody/build/world_files -- -j2 -l2
+[1.382s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/josephineoe/Project-cody/build/world_files': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/josephineoe/Project-cody/build/world_files
+[1.397s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(world_files)
+[1.397s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/josephineoe/Project-cody/build/world_files' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/josephineoe/Project-cody/build/world_files
+[1.418s] Level 1:colcon.colcon_core.environment:checking '/home/josephineoe/Project-cody/install/world_files' for CMake module files
+[1.418s] Level 1:colcon.colcon_core.environment:checking '/home/josephineoe/Project-cody/install/world_files' for CMake config files
+[1.418s] Level 1:colcon.colcon_core.shell:create_environment_hook('world_files', 'cmake_prefix_path')
+[1.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/josephineoe/Project-cody/install/world_files/share/world_files/hook/cmake_prefix_path.ps1'
+[1.436s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/josephineoe/Project-cody/install/world_files/share/world_files/hook/cmake_prefix_path.dsv'
+[1.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/josephineoe/Project-cody/install/world_files/share/world_files/hook/cmake_prefix_path.sh'
+[1.437s] Level 1:colcon.colcon_core.environment:checking '/home/josephineoe/Project-cody/install/world_files/bin'
+[1.437s] Level 1:colcon.colcon_core.environment:checking '/home/josephineoe/Project-cody/install/world_files/lib/pkgconfig/world_files.pc'
+[1.437s] Level 1:colcon.colcon_core.environment:checking '/home/josephineoe/Project-cody/install/world_files/lib/python3.10/site-packages'
+[1.437s] Level 1:colcon.colcon_core.environment:checking '/home/josephineoe/Project-cody/install/world_files/bin'
+[1.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/josephineoe/Project-cody/install/world_files/share/world_files/package.ps1'
+[1.448s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/josephineoe/Project-cody/install/world_files/share/world_files/package.dsv'
+[1.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/josephineoe/Project-cody/install/world_files/share/world_files/package.sh'
+[1.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/josephineoe/Project-cody/install/world_files/share/world_files/package.bash'
+[1.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/josephineoe/Project-cody/install/world_files/share/world_files/package.zsh'
+[1.450s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/josephineoe/Project-cody/install/world_files/share/colcon-core/packages/world_files)
+[1.498s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(world_files)
+[1.509s] Level 1:colcon.colcon_core.environment:checking '/home/josephineoe/Project-cody/install/world_files' for CMake module files
+[1.509s] Level 1:colcon.colcon_core.environment:checking '/home/josephineoe/Project-cody/install/world_files' for CMake config files
+[1.509s] Level 1:colcon.colcon_core.shell:create_environment_hook('world_files', 'cmake_prefix_path')
+[1.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/josephineoe/Project-cody/install/world_files/share/world_files/hook/cmake_prefix_path.ps1'
+[1.521s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/josephineoe/Project-cody/install/world_files/share/world_files/hook/cmake_prefix_path.dsv'
+[1.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/josephineoe/Project-cody/install/world_files/share/world_files/hook/cmake_prefix_path.sh'
+[1.522s] Level 1:colcon.colcon_core.environment:checking '/home/josephineoe/Project-cody/install/world_files/bin'
+[1.522s] Level 1:colcon.colcon_core.environment:checking '/home/josephineoe/Project-cody/install/world_files/lib/pkgconfig/world_files.pc'
+[1.522s] Level 1:colcon.colcon_core.environment:checking '/home/josephineoe/Project-cody/install/world_files/lib/python3.10/site-packages'
+[1.522s] Level 1:colcon.colcon_core.environment:checking '/home/josephineoe/Project-cody/install/world_files/bin'
+[1.536s] INFO:colcon.colcon_core.shell:Creating package script '/home/josephineoe/Project-cody/install/world_files/share/world_files/package.ps1'
+[1.537s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/josephineoe/Project-cody/install/world_files/share/world_files/package.dsv'
+[1.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/josephineoe/Project-cody/install/world_files/share/world_files/package.sh'
+[1.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/josephineoe/Project-cody/install/world_files/share/world_files/package.bash'
+[1.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/josephineoe/Project-cody/install/world_files/share/world_files/package.zsh'
+[1.539s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/josephineoe/Project-cody/install/world_files/share/colcon-core/packages/world_files)
+[1.874s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/josephineoe/Project-cody/build/gazebo_controls' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/josephineoe/Project-cody/src/gazebo_controls -DCMAKE_INSTALL_PREFIX=/home/josephineoe/Project-cody/install/gazebo_controls
+[1.875s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/josephineoe/Project-cody/build/gazebo_controls': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/josephineoe/Project-cody/build/gazebo_controls -- -j2 -l2
+[1.915s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/josephineoe/Project-cody/build/gazebo_controls' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/josephineoe/Project-cody/build/gazebo_controls -- -j2 -l2
+[1.948s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/josephineoe/Project-cody/build/gazebo_controls': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/josephineoe/Project-cody/build/gazebo_controls
+[1.960s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_controls)
+[1.961s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/josephineoe/Project-cody/build/gazebo_controls' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/josephineoe/Project-cody/build/gazebo_controls
+[1.972s] Level 1:colcon.colcon_core.environment:checking '/home/josephineoe/Project-cody/install/gazebo_controls' for CMake module files
+[1.972s] Level 1:colcon.colcon_core.environment:checking '/home/josephineoe/Project-cody/install/gazebo_controls' for CMake config files
+[1.972s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_controls', 'cmake_prefix_path')
+[1.981s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/josephineoe/Project-cody/install/gazebo_controls/share/gazebo_controls/hook/cmake_prefix_path.ps1'
+[1.982s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/josephineoe/Project-cody/install/gazebo_controls/share/gazebo_controls/hook/cmake_prefix_path.dsv'
+[1.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/josephineoe/Project-cody/install/gazebo_controls/share/gazebo_controls/hook/cmake_prefix_path.sh'
+[1.983s] Level 1:colcon.colcon_core.environment:checking '/home/josephineoe/Project-cody/install/gazebo_controls/bin'
+[1.983s] Level 1:colcon.colcon_core.environment:checking '/home/josephineoe/Project-cody/install/gazebo_controls/lib/pkgconfig/gazebo_controls.pc'
+[1.983s] Level 1:colcon.colcon_core.environment:checking '/home/josephineoe/Project-cody/install/gazebo_controls/lib/python3.10/site-packages'
+[1.984s] Level 1:colcon.colcon_core.environment:checking '/home/josephineoe/Project-cody/install/gazebo_controls/bin'
+[1.993s] INFO:colcon.colcon_core.shell:Creating package script '/home/josephineoe/Project-cody/install/gazebo_controls/share/gazebo_controls/package.ps1'
+[1.994s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/josephineoe/Project-cody/install/gazebo_controls/share/gazebo_controls/package.dsv'
+[1.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/josephineoe/Project-cody/install/gazebo_controls/share/gazebo_controls/package.sh'
+[1.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/josephineoe/Project-cody/install/gazebo_controls/share/gazebo_controls/package.bash'
+[1.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/josephineoe/Project-cody/install/gazebo_controls/share/gazebo_controls/package.zsh'
+[1.995s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/josephineoe/Project-cody/install/gazebo_controls/share/colcon-core/packages/gazebo_controls)
+[2.043s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_controls)
+[2.055s] Level 1:colcon.colcon_core.environment:checking '/home/josephineoe/Project-cody/install/gazebo_controls' for CMake module files
+[2.056s] Level 1:colcon.colcon_core.environment:checking '/home/josephineoe/Project-cody/install/gazebo_controls' for CMake config files
+[2.056s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_controls', 'cmake_prefix_path')
+[2.066s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/josephineoe/Project-cody/install/gazebo_controls/share/gazebo_controls/hook/cmake_prefix_path.ps1'
+[2.066s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/josephineoe/Project-cody/install/gazebo_controls/share/gazebo_controls/hook/cmake_prefix_path.dsv'
+[2.066s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/josephineoe/Project-cody/install/gazebo_controls/share/gazebo_controls/hook/cmake_prefix_path.sh'
+[2.067s] Level 1:colcon.colcon_core.environment:checking '/home/josephineoe/Project-cody/install/gazebo_controls/bin'
+[2.067s] Level 1:colcon.colcon_core.environment:checking '/home/josephineoe/Project-cody/install/gazebo_controls/lib/pkgconfig/gazebo_controls.pc'
+[2.067s] Level 1:colcon.colcon_core.environment:checking '/home/josephineoe/Project-cody/install/gazebo_controls/lib/python3.10/site-packages'
+[2.067s] Level 1:colcon.colcon_core.environment:checking '/home/josephineoe/Project-cody/install/gazebo_controls/bin'
+[2.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/josephineoe/Project-cody/install/gazebo_controls/share/gazebo_controls/package.ps1'
+[2.077s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/josephineoe/Project-cody/install/gazebo_controls/share/gazebo_controls/package.dsv'
+[2.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/josephineoe/Project-cody/install/gazebo_controls/share/gazebo_controls/package.sh'
+[2.078s] INFO:colcon.colcon_core.shell:Creating package script '/home/josephineoe/Project-cody/install/gazebo_controls/share/gazebo_controls/package.bash'
+[2.078s] INFO:colcon.colcon_core.shell:Creating package script '/home/josephineoe/Project-cody/install/gazebo_controls/share/gazebo_controls/package.zsh'
+[2.079s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/josephineoe/Project-cody/install/gazebo_controls/share/colcon-core/packages/gazebo_controls)
+[2.079s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.080s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.080s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.080s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.093s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.093s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.094s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.113s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.128s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/josephineoe/Project-cody/install/local_setup.ps1'
+[2.129s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/josephineoe/Project-cody/install/_local_setup_util_ps1.py'
+[2.131s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/josephineoe/Project-cody/install/setup.ps1'
+[2.147s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/josephineoe/Project-cody/install/local_setup.sh'
+[2.148s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/josephineoe/Project-cody/install/_local_setup_util_sh.py'
+[2.148s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/josephineoe/Project-cody/install/setup.sh'
+[2.163s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/josephineoe/Project-cody/install/local_setup.bash'
+[2.164s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/josephineoe/Project-cody/install/setup.bash'
+[2.179s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/josephineoe/Project-cody/install/local_setup.zsh'
+[2.179s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/josephineoe/Project-cody/install/setup.zsh'

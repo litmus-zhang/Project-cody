@@ -1,0 +1,66 @@
+[4.045s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/josephineoe/project-cody']
+[4.045s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/josephineoe/project-cody'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fdec9daf4c0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7fdec9dae020>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7fdec9dae020>>)
+[4.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.158s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/josephineoe/project-cody'
+[4.158s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody) by extensions ['ignore', 'ignore_ament_install']
+[4.158s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody) by extension 'ignore'
+[4.158s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody) by extension 'ignore_ament_install'
+[4.158s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody) by extensions ['colcon_pkg']
+[4.158s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody) by extension 'colcon_pkg'
+[4.158s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody) by extensions ['colcon_meta']
+[4.158s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody) by extension 'colcon_meta'
+[4.158s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody) by extensions ['ros']
+[4.159s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody) by extension 'ros'
+[4.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody) by extensions ['cmake', 'python']
+[4.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody) by extension 'cmake'
+[4.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody) by extension 'python'
+[4.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody) by extensions ['python_setup_py']
+[4.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody) by extension 'python_setup_py'
+[4.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody/build) by extensions ['ignore', 'ignore_ament_install']
+[4.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody/build) by extension 'ignore'
+[4.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody/build) ignored
+[4.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody/install) by extensions ['ignore', 'ignore_ament_install']
+[4.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody/install) by extension 'ignore'
+[4.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody/install) ignored
+[4.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody/log) by extensions ['ignore', 'ignore_ament_install']
+[4.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody/log) by extension 'ignore'
+[4.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody/log) ignored
+[4.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody/src) by extensions ['ignore', 'ignore_ament_install']
+[4.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody/src) by extension 'ignore'
+[4.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody/src) by extension 'ignore_ament_install'
+[4.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody/src) by extensions ['colcon_pkg']
+[4.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody/src) by extension 'colcon_pkg'
+[4.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody/src) by extensions ['colcon_meta']
+[4.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody/src) by extension 'colcon_meta'
+[4.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody/src) by extensions ['ros']
+[4.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody/src) by extension 'ros'
+[4.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody/src) by extensions ['cmake', 'python']
+[4.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody/src) by extension 'cmake'
+[4.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody/src) by extension 'python'
+[4.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody/src) by extensions ['python_setup_py']
+[4.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody/src) by extension 'python_setup_py'
+[4.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody/src/environment) by extensions ['ignore', 'ignore_ament_install']
+[4.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody/src/environment) by extension 'ignore'
+[4.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody/src/environment) by extension 'ignore_ament_install'
+[4.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody/src/environment) by extensions ['colcon_pkg']
+[4.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody/src/environment) by extension 'colcon_pkg'
+[4.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody/src/environment) by extensions ['colcon_meta']
+[4.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody/src/environment) by extension 'colcon_meta'
+[4.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody/src/environment) by extensions ['ros']
+[4.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody/src/environment) by extension 'ros'
+[4.172s] DEBUG:colcon.colcon_core.package_identification:Package '/home/josephineoe/project-cody/src/environment' with type 'ros.ament_cmake' and name 'environment'
+[4.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody/src/gazebo_controls) by extensions ['ignore', 'ignore_ament_install']
+[4.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody/src/gazebo_controls) by extension 'ignore'
+[4.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody/src/gazebo_controls) by extension 'ignore_ament_install'
+[4.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody/src/gazebo_controls) by extensions ['colcon_pkg']
+[4.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody/src/gazebo_controls) by extension 'colcon_pkg'
+[4.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody/src/gazebo_controls) by extensions ['colcon_meta']
+[4.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody/src/gazebo_controls) by extension 'colcon_meta'
+[4.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody/src/gazebo_controls) by extensions ['ros']
+[4.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josephineoe/project-cody/src/gazebo_controls) by extension 'ros'
+[4.173s] DEBUG:colcon.colcon_core.package_identification:Package '/home/josephineoe/project-cody/src/gazebo_controls' with type 'ros.ament_cmake' and name 'gazebo_controls'
+[4.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

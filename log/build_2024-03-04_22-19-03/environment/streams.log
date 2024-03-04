@@ -1,0 +1,6 @@
+[0.099s] Invoking command in '/home/josephineoe/Project-cody/build/environment': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/josephineoe/Project-cody/build/environment -- -j2 -l2
+[0.109s] [0mCMake Error: The current CMakeCache.txt directory /home/josephineoe/Project-cody/build/environment/CMakeCache.txt is different than the directory /home/josephineoe/project-cody/build/environment where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.121s] [0mCMake Error: The source directory "/home/josephineoe/project-cody/src/environment" does not exist.
+[0.121s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.122s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.125s] Invoked command in '/home/josephineoe/Project-cody/build/environment' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/josephineoe/Project-cody/build/environment -- -j2 -l2

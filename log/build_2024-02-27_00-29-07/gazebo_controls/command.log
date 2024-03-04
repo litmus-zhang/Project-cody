@@ -1,0 +1,6 @@
+Invoking command in '/home/josephineoe/project-cody/build/gazebo_controls': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/josephineoe/project-cody/src/gazebo_controls -DCMAKE_INSTALL_PREFIX=/home/josephineoe/project-cody/install/gazebo_controls
+Invoked command in '/home/josephineoe/project-cody/build/gazebo_controls' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/josephineoe/project-cody/src/gazebo_controls -DCMAKE_INSTALL_PREFIX=/home/josephineoe/project-cody/install/gazebo_controls
+Invoking command in '/home/josephineoe/project-cody/build/gazebo_controls': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/josephineoe/project-cody/build/gazebo_controls -- -j2 -l2
+Invoked command in '/home/josephineoe/project-cody/build/gazebo_controls' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/josephineoe/project-cody/build/gazebo_controls -- -j2 -l2
+Invoking command in '/home/josephineoe/project-cody/build/gazebo_controls': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/josephineoe/project-cody/build/gazebo_controls
+Invoked command in '/home/josephineoe/project-cody/build/gazebo_controls' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/josephineoe/project-cody/build/gazebo_controls

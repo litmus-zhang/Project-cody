@@ -1,0 +1,21 @@
+[0.046s] Invoking command in '/home/josephineoe/Project-cody/build/world_files': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/josephineoe/Project-cody/src/world_files -DCMAKE_INSTALL_PREFIX=/home/josephineoe/Project-cody/install/world_files
+[0.213s] -- The C compiler identification is GNU 11.4.0
+[0.329s] -- The CXX compiler identification is GNU 11.4.0
+[0.349s] -- Detecting C compiler ABI info
+[0.435s] -- Detecting C compiler ABI info - done
+[0.440s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.441s] -- Detecting C compile features
+[0.443s] -- Detecting C compile features - done
+[0.448s] -- Detecting CXX compiler ABI info
+[0.543s] -- Detecting CXX compiler ABI info - done
+[0.547s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.548s] -- Detecting CXX compile features
+[0.552s] -- Detecting CXX compile features - done
+[0.571s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.726s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.833s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.912s] -- Added test 'lint_cmake' to check CMake code style
+[0.914s] -- Added test 'xmllint' to check XML markup files
+[0.916s] -- Configuring done
+[0.918s] -- Generating done
+[0.919s] -- Build files have been written to: /home/josephineoe/Project-cody/build/world_files
