@@ -1,0 +1,6 @@
+[0.091s] Invoking command in '/home/josephineoe/Project-cody/build/gazebo_controls': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/josephineoe/Project-cody/build/gazebo_controls -- -j2 -l2
+[0.100s] [0mCMake Error: The current CMakeCache.txt directory /home/josephineoe/Project-cody/build/gazebo_controls/CMakeCache.txt is different than the directory /home/josephineoe/project-cody/build/gazebo_controls where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.119s] [0mCMake Error: The source directory "/home/josephineoe/project-cody/src/gazebo_controls" does not exist.
+[0.119s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.121s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.123s] Invoked command in '/home/josephineoe/Project-cody/build/gazebo_controls' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/josephineoe/Project-cody/build/gazebo_controls -- -j2 -l2

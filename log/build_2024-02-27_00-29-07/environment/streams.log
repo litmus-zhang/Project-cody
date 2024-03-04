@@ -1,0 +1,42 @@
+[0.090s] Invoking command in '/home/josephineoe/project-cody/build/environment': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/josephineoe/project-cody/src/environment -DCMAKE_INSTALL_PREFIX=/home/josephineoe/project-cody/install/environment
+[0.192s] -- The C compiler identification is GNU 11.4.0
+[0.289s] -- The CXX compiler identification is GNU 11.4.0
+[0.298s] -- Detecting C compiler ABI info
+[0.414s] -- Detecting C compiler ABI info - done
+[0.428s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.428s] -- Detecting C compile features
+[0.428s] -- Detecting C compile features - done
+[0.431s] -- Detecting CXX compiler ABI info
+[0.571s] -- Detecting CXX compiler ABI info - done
+[0.582s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.582s] -- Detecting CXX compile features
+[0.582s] -- Detecting CXX compile features - done
+[0.589s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.780s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.890s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.992s] -- Added test 'lint_cmake' to check CMake code style
+[0.993s] -- Added test 'xmllint' to check XML markup files
+[0.995s] -- Configuring done
+[0.999s] -- Generating done
+[1.000s] -- Build files have been written to: /home/josephineoe/project-cody/build/environment
+[1.010s] Invoked command in '/home/josephineoe/project-cody/build/environment' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/josephineoe/project-cody/src/environment -DCMAKE_INSTALL_PREFIX=/home/josephineoe/project-cody/install/environment
+[1.010s] Invoking command in '/home/josephineoe/project-cody/build/environment': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/josephineoe/project-cody/build/environment -- -j2 -l2
+[1.059s] Invoked command in '/home/josephineoe/project-cody/build/environment' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/josephineoe/project-cody/build/environment -- -j2 -l2
+[1.120s] Invoking command in '/home/josephineoe/project-cody/build/environment': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/josephineoe/project-cody/build/environment
+[1.130s] -- Install configuration: ""
+[1.131s] -- Installing: /home/josephineoe/project-cody/install/environment/share/ament_index/resource_index/package_run_dependencies/environment
+[1.131s] -- Installing: /home/josephineoe/project-cody/install/environment/share/ament_index/resource_index/parent_prefix_path/environment
+[1.131s] -- Installing: /home/josephineoe/project-cody/install/environment/share/environment/environment/ament_prefix_path.sh
+[1.131s] -- Installing: /home/josephineoe/project-cody/install/environment/share/environment/environment/ament_prefix_path.dsv
+[1.132s] -- Installing: /home/josephineoe/project-cody/install/environment/share/environment/environment/path.sh
+[1.132s] -- Installing: /home/josephineoe/project-cody/install/environment/share/environment/environment/path.dsv
+[1.132s] -- Installing: /home/josephineoe/project-cody/install/environment/share/environment/local_setup.bash
+[1.132s] -- Installing: /home/josephineoe/project-cody/install/environment/share/environment/local_setup.sh
+[1.132s] -- Installing: /home/josephineoe/project-cody/install/environment/share/environment/local_setup.zsh
+[1.132s] -- Installing: /home/josephineoe/project-cody/install/environment/share/environment/local_setup.dsv
+[1.133s] -- Installing: /home/josephineoe/project-cody/install/environment/share/environment/package.dsv
+[1.133s] -- Installing: /home/josephineoe/project-cody/install/environment/share/ament_index/resource_index/packages/environment
+[1.133s] -- Installing: /home/josephineoe/project-cody/install/environment/share/environment/cmake/environmentConfig.cmake
+[1.133s] -- Installing: /home/josephineoe/project-cody/install/environment/share/environment/cmake/environmentConfig-version.cmake
+[1.133s] -- Installing: /home/josephineoe/project-cody/install/environment/share/environment/package.xml
+[1.137s] Invoked command in '/home/josephineoe/project-cody/build/environment' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/josephineoe/project-cody/build/environment

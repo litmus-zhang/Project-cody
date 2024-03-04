@@ -1,0 +1,9 @@
+/home/josephineoe/Project-cody/build/world_files/CMakeFiles/uninstall.dir
+/home/josephineoe/Project-cody/build/world_files/CMakeFiles/world_files_uninstall.dir
+/home/josephineoe/Project-cody/build/world_files/CMakeFiles/test.dir
+/home/josephineoe/Project-cody/build/world_files/CMakeFiles/edit_cache.dir
+/home/josephineoe/Project-cody/build/world_files/CMakeFiles/rebuild_cache.dir
+/home/josephineoe/Project-cody/build/world_files/CMakeFiles/list_install_components.dir
+/home/josephineoe/Project-cody/build/world_files/CMakeFiles/install.dir
+/home/josephineoe/Project-cody/build/world_files/CMakeFiles/install/local.dir
+/home/josephineoe/Project-cody/build/world_files/CMakeFiles/install/strip.dir

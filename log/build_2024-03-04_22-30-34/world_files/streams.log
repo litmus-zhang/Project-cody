@@ -1,0 +1,20 @@
+[0.048s] Invoking command in '/home/josephineoe/Project-cody/build/world_files': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/josephineoe/Project-cody/build/world_files -- -j2 -l2
+[0.085s] Invoked command in '/home/josephineoe/Project-cody/build/world_files' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/josephineoe/Project-cody/build/world_files -- -j2 -l2
+[0.150s] Invoking command in '/home/josephineoe/Project-cody/build/world_files': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/josephineoe/Project-cody/build/world_files
+[0.161s] -- Install configuration: ""
+[0.161s] -- Installing: /home/josephineoe/Project-cody/install/world_files/share/ament_index/resource_index/package_run_dependencies/world_files
+[0.161s] -- Installing: /home/josephineoe/Project-cody/install/world_files/share/ament_index/resource_index/parent_prefix_path/world_files
+[0.161s] -- Installing: /home/josephineoe/Project-cody/install/world_files/share/world_files/environment/ament_prefix_path.sh
+[0.161s] -- Installing: /home/josephineoe/Project-cody/install/world_files/share/world_files/environment/ament_prefix_path.dsv
+[0.162s] -- Installing: /home/josephineoe/Project-cody/install/world_files/share/world_files/environment/path.sh
+[0.162s] -- Installing: /home/josephineoe/Project-cody/install/world_files/share/world_files/environment/path.dsv
+[0.162s] -- Installing: /home/josephineoe/Project-cody/install/world_files/share/world_files/local_setup.bash
+[0.162s] -- Installing: /home/josephineoe/Project-cody/install/world_files/share/world_files/local_setup.sh
+[0.162s] -- Installing: /home/josephineoe/Project-cody/install/world_files/share/world_files/local_setup.zsh
+[0.162s] -- Installing: /home/josephineoe/Project-cody/install/world_files/share/world_files/local_setup.dsv
+[0.162s] -- Installing: /home/josephineoe/Project-cody/install/world_files/share/world_files/package.dsv
+[0.163s] -- Installing: /home/josephineoe/Project-cody/install/world_files/share/ament_index/resource_index/packages/world_files
+[0.163s] -- Installing: /home/josephineoe/Project-cody/install/world_files/share/world_files/cmake/world_filesConfig.cmake
+[0.163s] -- Installing: /home/josephineoe/Project-cody/install/world_files/share/world_files/cmake/world_filesConfig-version.cmake
+[0.163s] -- Installing: /home/josephineoe/Project-cody/install/world_files/share/world_files/package.xml
+[0.165s] Invoked command in '/home/josephineoe/Project-cody/build/world_files' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/josephineoe/Project-cody/build/world_files

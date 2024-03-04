@@ -1,0 +1,2 @@
+Invoking command in '/home/josephineoe/Project-cody/build/gazebo_controls': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/josephineoe/Project-cody/build/gazebo_controls -- -j2 -l2
+Invoked command in '/home/josephineoe/Project-cody/build/gazebo_controls' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/josephineoe/Project-cody/build/gazebo_controls -- -j2 -l2

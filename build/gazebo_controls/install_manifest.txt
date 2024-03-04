@@ -1,0 +1,15 @@
+/home/josephineoe/Project-cody/install/gazebo_controls/share/ament_index/resource_index/package_run_dependencies/gazebo_controls
+/home/josephineoe/Project-cody/install/gazebo_controls/share/ament_index/resource_index/parent_prefix_path/gazebo_controls
+/home/josephineoe/Project-cody/install/gazebo_controls/share/gazebo_controls/environment/ament_prefix_path.sh
+/home/josephineoe/Project-cody/install/gazebo_controls/share/gazebo_controls/environment/ament_prefix_path.dsv
+/home/josephineoe/Project-cody/install/gazebo_controls/share/gazebo_controls/environment/path.sh
+/home/josephineoe/Project-cody/install/gazebo_controls/share/gazebo_controls/environment/path.dsv
+/home/josephineoe/Project-cody/install/gazebo_controls/share/gazebo_controls/local_setup.bash
+/home/josephineoe/Project-cody/install/gazebo_controls/share/gazebo_controls/local_setup.sh
+/home/josephineoe/Project-cody/install/gazebo_controls/share/gazebo_controls/local_setup.zsh
+/home/josephineoe/Project-cody/install/gazebo_controls/share/gazebo_controls/local_setup.dsv
+/home/josephineoe/Project-cody/install/gazebo_controls/share/gazebo_controls/package.dsv
+/home/josephineoe/Project-cody/install/gazebo_controls/share/ament_index/resource_index/packages/gazebo_controls
+/home/josephineoe/Project-cody/install/gazebo_controls/share/gazebo_controls/cmake/gazebo_controlsConfig.cmake
+/home/josephineoe/Project-cody/install/gazebo_controls/share/gazebo_controls/cmake/gazebo_controlsConfig-version.cmake
+/home/josephineoe/Project-cody/install/gazebo_controls/share/gazebo_controls/package.xml

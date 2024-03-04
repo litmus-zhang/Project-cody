@@ -1,0 +1,1 @@
+Invoking command in '/home/josephineoe/Project-cody/build/world_files': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/josephineoe/Project-cody/src/world_files -DCMAKE_INSTALL_PREFIX=/home/josephineoe/Project-cody/install/world_files
